@@ -1,0 +1,613 @@
+@media screen and (max-width: 1024px) {
+  .navbar {
+    width: 600px;
+  }
+
+  .navbar ul {
+    width: 470px;
+  }
+
+  .imageprofile {
+    right: 200px;
+  }
+
+  .heading span {
+    font-size: 2.5rem;
+  }
+
+  .text-box h1,
+  h3,
+  p {
+    z-index: 999;
+  }
+
+  .text-box h1 {
+    font-size: 35px;
+  }
+
+  .text-box h3 {
+    font-size: 60px;
+  }
+  .text-box p {
+    font-size: 20px;
+  }
+  .sosialmedia {
+    z-index: 999;
+    top: 13rem;
+  }
+  .car1,
+  .car2,
+  .car3 {
+    max-width: 150px;
+  }
+  .car2 {
+    bottom: -40px;
+  }
+
+  .contentprof h3 {
+    font-size: 20px;
+  }
+  .contentprof p {
+    font-size: 13px;
+  }
+
+  .contentprof2 h3 {
+    font-size: 15px;
+  }
+  .contentprof2 p {
+    font-size: 13px;
+  }
+
+  .kualitas span {
+    margin-bottom: 5px;
+  }
+
+  .kualitas .hpypas,
+  .kmrklk {
+    height: 100px;
+  }
+
+  .kualitas .smudokter,
+  .pngh {
+    height: 100px;
+  }
+
+  .kualitas .hpypas h3 {
+    font-size: 15px;
+  }
+  .kualitas .hpypas p {
+    font-size: 13px;
+  }
+
+  .kualitas .smudokter h3 {
+    font-size: 15px;
+  }
+
+  .kualitas .smudokter p {
+    font-size: 13px;
+  }
+
+  .imgprof2 img {
+    width: 100%;
+  }
+
+  h1.doctor {
+    font-size: 25px;
+  }
+
+  .team-box {
+    width: 200px;
+    height: 320px;
+  }
+
+  .team-content {
+    margin-top: 200px;
+  }
+
+  .team-name:hover::before {
+    width: 70%;
+    height: 50%;
+  }
+
+  .team-content h2 {
+    font-size: 20px;
+  }
+
+  .team-content ion-icon {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .contact-heading h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .textpesan {
+    font-size: 0.9rem;
+  }
+
+  .contact-form {
+    display: grid;
+    margin-top: 1.9rem;
+    column-gap: 0.8rem;
+    row-gap: 0.65rem;
+  }
+
+  .contact-input {
+    border-radius: 17px;
+    font-size: 0.87rem;
+    padding: 1.5rem 1.2rem calc(0.75rem - 2px) 1.2rem;
+  }
+
+  .input-wrap label {
+    font-size: 0.91rem;
+    left: calc(1.2rem + 2px);
+  }
+
+  .input-wrap .bx {
+    font-size: 1.1rem;
+    right: calc(1.2rem + 2px);
+  }
+
+  textarea.contact-input ~ label {
+    top: 1rem;
+  }
+
+  textarea.contact-input ~ .bx {
+    top: 1rem;
+  }
+
+  .input-wrap.focus .contact-input {
+    box-shadow: 0 0 0 3.5px #1da1f2;
+  }
+
+  .input-wrap.focus2 label {
+    font-size: 0.61rem;
+  }
+
+  #dashed-wave {
+    stroke-width: 0.7px;
+    stroke-dasharray: 6;
+  }
+
+  .footerrow {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    background: transparent;
+  }
+  section.logo {
+    width: 100%;
+    max-height: 100%;
+    height: 65px;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    height: 100%;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 40px;
+  }
+
+  .menulink {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .menubar.navsistem {
+    display: none;
+    transition: 0.5s;
+  }
+
+  .menubar #menu {
+    z-index: 9;
+    display: none;
+  }
+
+  .closebar {
+    display: none;
+  }
+
+  .menubar #menu {
+    display: block;
+    transition: 0.5s;
+  }
+
+  .closebar {
+    display: none;
+    transition: 0.5s;
+  }
+
+  .closebar.navsistem {
+    display: block;
+    transition: 0.5s;
+  }
+
+  section.nav {
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: 420px;
+    display: none;
+  }
+
+  .nav.navsistem {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav.navbar {
+    width: 100%;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  ul li {
+    margin-bottom: 0;
+  }
+
+  .list a span ion-icon {
+    color: black;
+  }
+
+  .navbar ul li.active a .text {
+    color: black;
+  }
+  .router .navbar ul li.active a .text {
+    color: #fff;
+  }
+
+  .navbar ul li.active button .text {
+    color: black;
+  }
+  .router .navbar ul li.active button .text {
+    color: #fff;
+  }
+
+  .icon ion-icon {
+    color: black;
+  }
+  .router .icon ion-icon {
+    color: #fff;
+  }
+
+  .mode ion-icon {
+    color: black;
+  }
+  .router .mode ion-icon {
+    color: #fff;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .imageprofile {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    top: 15px;
+    right: 10px;
+    transition: 0.5s;
+  }
+  .imageprofile .bx {
+    left: 0;
+  }
+
+  .imageprofile .bx {
+    border-bottom-left-radius: 0;
+  }
+
+  .isi .profileimg {
+    margin-left: 10px;
+  }
+  .isi .loginprof {
+    margin-right: 10px;
+  }
+
+  .text-box {
+    left: 3rem;
+  }
+  .text-box h1 {
+    font-size: 30px;
+  }
+  .text-box h3 {
+    font-size: 50px;
+  }
+  .sosialmedia {
+    left: 2.7rem;
+    top: 12rem;
+    font-size: 1.5rem;
+  }
+
+  .dashboard {
+    top: 60px;
+  }
+
+  .car1,
+  .car2,
+  .car3 {
+    max-width: 140px;
+  }
+
+  .car2 {
+    bottom: -30px;
+  }
+  .car3 {
+    bottom: 10px;
+  }
+
+  .contentprof2 {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 0;
+  }
+
+  .heading span {
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .contentprof h3 {
+    height: 20%;
+  }
+
+  .imgprof2 img {
+    display: none;
+  }
+
+  .row2 {
+    margin-top: 2rem;
+  }
+
+  .team-box {
+    width: 100%;
+    height: 230px;
+  }
+  .team-content {
+    margin-top: 135px;
+  }
+
+  .team-name:hover::before {
+    width: 80%;
+    height: 50%;
+  }
+  .team-name::before {
+    margin-top: 25px;
+  }
+
+  .team-content h2 {
+    font-size: 15px;
+  }
+
+  .team-content a p {
+    font-size: 12px;
+  }
+
+  .team-content ion-icon {
+    padding: 3px;
+    font-size: 15px;
+    margin: 3px 3px;
+  }
+
+  .left {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 10px 10px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .form-wrapper {
+    margin-left: 2rem;
+  }
+
+  section.contact .heading {
+    margin-bottom: 0;
+  }
+
+  .footerimg {
+    width: 50px;
+  }
+
+  .sosialmediafoot {
+    font-size: 1.3rem;
+  }
+
+  .sosialmediafoot a {
+    margin: 0;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    display: none;
+  }
+  .slide-content {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .navbar ul {
+    width: 70px;
+    margin-top: 3px;
+  }
+
+  .navbar ul li {
+    width: 70px;
+  }
+
+  .navbar ul li a .icon,
+  .navbar ul li button .icon,
+  .mode,
+  .sun {
+    font-size: 1.5rem;
+  }
+
+  .navbar ul li a .text,
+  .navbar ul li button .text {
+    font-size: 1rem;
+  }
+  .text-box h1 {
+    font-size: 20px;
+  }
+
+  .text-box h3 {
+    font-size: 35px;
+  }
+
+  .text-box p {
+    font-size: 15px;
+  }
+
+  .sosialmedia {
+    top: 10rem;
+  }
+
+  .car1,
+  .car2,
+  .car3 {
+    max-width: 130px;
+  }
+
+  .imageprofile {
+    width: 150px;
+
+    right: 10px;
+  }
+  .imageprofile .isi {
+    font-size: 15px;
+  }
+  .imageprofile .bx {
+    font-size: 1.7rem;
+  }
+
+  .heading span {
+    padding: 5px;
+    font-size: 2rem;
+  }
+
+  .profile .imgprof {
+    display: none;
+  }
+
+  h1.doctor {
+    font-size: 20px;
+  }
+
+  .team-box {
+    height: 155px;
+  }
+
+  .team-name::before {
+    margin-top: 12px;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom);
+  }
+
+  .team-content {
+    margin-top: 100px;
+  }
+
+  .team-content h2 {
+    font-size: 10px;
+  }
+
+  .team-content a p {
+    font-size: 10px;
+  }
+
+  .team-content ion-icon {
+    font-size: 10px;
+  }
+
+  .form-wrapper {
+    margin-left: 0;
+  }
+  .contact-heading h1 {
+    font-size: 1.3rem;
+  }
+  .textpesan {
+    font-size: 13px;
+  }
+  .footerrow {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footercol h3 {
+    width: 100%;
+    border: none;
+    text-decoration: underline;
+  }
+
+  .emailfot {
+    width: 100%;
+    border: none;
+  }
+
+  .sosialmediafoot {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .dashboard {
+    top: 40px;
+    height: 70vh;
+  }
+
+  .menulink {
+    margin-right: 20px;
+  }
+  .logo img {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dashboard {
+    top: 50px;
+    height: 70vh;
+  }
+  .navbar ul {
+    margin-top: 8px;
+  }
+  .menubar,
+  .closebar {
+    right: 20%;
+  }
+  h1.doctor {
+    font-size: 15px;
+  }
+  .menubar,
+  .closebar {
+    top: 12px;
+  }
+}
